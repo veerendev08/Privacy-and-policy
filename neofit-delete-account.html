@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delete Account – NeoFit</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0A0A0F;
+      color: #E0E0E0;
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #13131A;
+      border-radius: 16px;
+      padding: 48px 40px;
+      border: 1px solid #1E1E2E;
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+      color: #6C63FF;
+      margin-bottom: 24px;
+      letter-spacing: -0.5px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 14px;
+      color: #B0B0C0;
+      margin-bottom: 16px;
+    }
+    .steps {
+      background: #0A0A0F;
+      border: 1px solid #1E1E2E;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin: 24px 0;
+    }
+    .steps h2 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #6C63FF;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .step:last-child { margin-bottom: 0; }
+    .step-num {
+      background: #6C63FF;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .step-text {
+      font-size: 14px;
+      color: #B0B0C0;
+    }
+    .step-text strong { color: #E0E0E0; }
+    .warning-box {
+      background: #1A0A0A;
+      border: 1px solid #3D1515;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 24px 0;
+    }
+    .warning-box p {
+      color: #E57373;
+      font-size: 13px;
+      margin: 0;
+    }
+    .email-btn {
+      display: inline-block;
+      background: #6C63FF;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+    .email-btn:hover { background: #5A52E0; }
+    .divider {
+      height: 1px;
+      background: #1E1E2E;
+      margin: 32px 0;
+    }
+    .note {
+      font-size: 12px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="logo">NeoFit</div>
+    <h1>Delete Your Account</h1>
+    <p>
+      You can request the deletion of your NeoFit account and all associated data at any time.
+      Once deleted, your data cannot be recovered.
+    </p>
+
+    <div class="steps">
+      <h2>Option 1 — Delete Directly in the App</h2>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">Open the <strong>NeoFit</strong> app and go to the <strong>Profile</strong> tab.</div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">Scroll to the bottom and tap <strong>"Delete Account"</strong>.</div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">Confirm the deletion. Your account and all data will be permanently removed immediately.</div>
+      </div>
+    </div>
+
+    <div class="steps">
+      <h2>Option 2 — Request via Email</h2>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          Send an email to <strong>devhimanshi08@gmail.com</strong> with the subject line:<br/>
+          <strong>"Account Deletion Request"</strong>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          Include the <strong>email address</strong> linked to your NeoFit account
+          (the one you used to sign up or sign in with Google).
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          We will verify your identity and process your request within <strong>7 business days</strong>.
+          You will receive a confirmation email once your account has been deleted.
+        </div>
+      </div>
+    </div>
+
+    <div class="warning-box">
+      ⚠️ <strong>This action is permanent.</strong> Deleting your account will remove all your
+      workout history, nutrition logs, weight logs, water logs, workout schedule, and profile data.
+      This cannot be undone.
+    </div>
+
+    <p>Click the button below to open your email app with the request pre-filled:</p>
+    <a class="email-btn"
+       href="mailto:devhimanshi08@gmail.com?subject=Account%20Deletion%20Request&body=Hello%2C%0A%0AI%20would%20like%20to%20request%20the%20deletion%20of%20my%20NeoFit%20account.%0A%0AAccount%20email%3A%20%5Byour%20email%20here%5D%0A%0AThank%20you.">
+      ✉️ Request Account Deletion
+    </a>
+
+    <div class="divider"></div>
+
+    <p class="note">
+      NeoFit — Fitness, Gym and Home Workout<br/>
+      For any other questions, contact us at <a href="mailto:support@neofit.app" style="color:#6C63FF;">devhimanshi08@gmail.com</a>
+    </p>
+
+  </div>
+</body>
+</html>
